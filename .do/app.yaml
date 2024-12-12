@@ -1,0 +1,10 @@
+name: garagebuddy
+services:
+- environment_slug: dotnet
+  github:
+    branch: main
+    repo: your-github-username/GarageBuddy
+  name: garagebuddy-web
+  routes:
+  - path: /
+  type: web
